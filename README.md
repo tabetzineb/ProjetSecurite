@@ -1,5 +1,6 @@
 # ProjetSecurite
-La creation d'un formulaire sécurise
+La creation d'un formulaire sécurise.
+Le système permet l'authentification et l'ajout de comte admin.
 # lanage de programmation utilisé:
 HTML5,CSS3,PHP 
 # coté backend:
@@ -7,7 +8,11 @@ base de donné sql (mariaDb)
 # logiciel utilisé:
 visuel studio code(coté front)
 wampserver (coté back)
-
+# sécurité
+La fonction de hachage sha1
+Les variable post
+Les variable sessions
+La fonction htmlspecialchars pour empêcher l'injection de scripte mal veillant dans les input de formulaire.
 # Lancement du projet:
 telécharger l'ensemble des fichier dans un seul dossier et le copier dans le disque C dans le dossier suivant:
 si vous disposez de wamp vous allez le mettre dans le dossier wamp/www
